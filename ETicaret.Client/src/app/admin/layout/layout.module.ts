@@ -18,6 +18,9 @@ Declare işlemi ise kendine en yakın module kendini declare eder.
   imports: [
     CommonModule,
     ComponentsModule
+  ],
+  exports:[
+    LayoutComponent
   ]
 })
 export class LayoutModule { }

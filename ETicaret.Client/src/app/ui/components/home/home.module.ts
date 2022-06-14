@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 import { RouterModule } from '@angular/router';
 
+
 @NgModule({
   declarations: [
     HomeComponent
@@ -11,7 +12,7 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     RouterModule.forChild([
       { path: "", component: HomeComponent }
-
+    ])
   ]
 })
 export class HomeModule { }

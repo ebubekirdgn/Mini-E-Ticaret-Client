@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: "baskets", loadChildren: () => import("./ui/components/baskets/baskets.module").then(module => module.BasketsModule) },
   { path: "products", loadChildren: () => import("./ui/components/products/products.module").then(module => module.ProductsModule) },
 ];
-
+ 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

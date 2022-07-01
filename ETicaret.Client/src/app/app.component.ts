@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 declare var $: any
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ declare var $: any
 })
 export class AppComponent {
   title = 'ETicaret.Client';
+  constructor(private toastr: ToastrService) {
+    this.toastr.success('Hello world!', 'Toastr fun!');
+  }
 }
-$(document).ready(()=>{
-  alert("ebubekir");
-})

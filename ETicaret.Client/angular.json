@@ -33,11 +33,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/alertifyjs/build/css/alertify.min.css",
               "node_modules/ngx-toastr/toastr.css"
-
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/jquery/dist/jquery.min.js", 
+              "node_modules/jquery/dist/jquery.min.js",
               "node_modules/alertifyjs/build/alertify.min.js"
             ]
           },
@@ -113,7 +112,7 @@
         }
       }
     }
-  }, 
+  },
   "cli": {
     "analytics": "aa8fa4ac-dec6-46c0-a92f-2d8d8256db1d"
   }

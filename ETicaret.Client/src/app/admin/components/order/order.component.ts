@@ -11,11 +11,11 @@ export class OrderComponent implements OnInit {
   constructor(private spinner: NgxSpinnerService) { }
 
   ngOnInit(): void {
-    this.spinner.show();
+    this.spinner.show("s1");
     
     setTimeout(() => {
       /** spinner ends after 5 seconds */
-      this.spinner.hide();
+      this.spinner.hide("s1");
     }, 5000);
   }
 

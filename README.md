@@ -3,10 +3,10 @@
 
 ## Project Requirements
 
+Node Js Download [GitHub Pages](https://nodejs.org/en/download/) 
 ng add @angular/material
 
-
-Firstly :
+ 
 C:\...\..is not digitally signed. You cannot run 
  this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com 
 /fwlink/?LinkID=135170.

@@ -27,3 +27,6 @@ npm install alertifyjs --save
 ```
 npm install --save toastr
 ```
+7. Animation Waiting Infrastructure with Spinner
+```
+```

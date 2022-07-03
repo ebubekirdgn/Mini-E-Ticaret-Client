@@ -14,3 +14,7 @@ Open Powershell and run the following command
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+4. Bootstrap
+```
+npm install ngx-bootstrap bootstrap --save
+```

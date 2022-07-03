@@ -1,7 +1,7 @@
 # Mini-E-Ticaret-FrontEnd
  Mini-E-Ticaret-Client
 
-> Project Requirements
+## Project Requirements
 
 ng add @angular/material
 

@@ -12,7 +12,6 @@ import { BaseComponent } from './base/base.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BaseComponent
   ],
   imports: [
     BrowserModule,

@@ -3,8 +3,9 @@
 
 ## Project Requirements
 
-1. Node Js [Download](https://nodejs.org/en/download/) 
-ng add @angular/material
+- Node Js [Download](https://nodejs.org/en/download/) 
+- npm install -g @angular/cli
+- ng add @angular/material
 
  
 C:\...\..is not digitally signed. You cannot run 

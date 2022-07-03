@@ -16,17 +16,19 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 4. Bootstrap
 ```
-npm install ngx-bootstrap bootstrap --save
+$ npm install ngx-bootstrap bootstrap --save
 ```
 5. Alertify
 ```
-npm install alertifyjs --save
+$ npm install alertifyjs --save
 ```
 6. Toastr
 
 ```
-npm install --save toastr
+$ npm install --save toastr
 ```
 7. Animation Waiting Infrastructure with Spinner
 ```
+$ npm install ngx-spinner --save
+
 ```

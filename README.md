@@ -18,3 +18,12 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 npm install ngx-bootstrap bootstrap --save
 ```
+5. Alertify
+```
+npm install alertifyjs --save
+```
+6. Toastr
+
+```
+npm install --save toastr
+```

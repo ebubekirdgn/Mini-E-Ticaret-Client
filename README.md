@@ -14,6 +14,3 @@ Open Powershell and run the following command
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-![image](https://user-images.githubusercontent.com/15093808/177049458-f1cc22a8-9af1-49b6-ba5c-542b31065dbf.png)
-
-

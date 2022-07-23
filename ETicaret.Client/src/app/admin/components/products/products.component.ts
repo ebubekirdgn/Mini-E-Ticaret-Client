@@ -45,5 +45,10 @@ export class ProductsComponent extends BaseComponent implements OnInit {
     this.httpClientService.delete({
       controller:"products"
     },"540930d7-3cda-4dee-b716-2dbe05f3085c").subscribe();
+  this.httpClientService.get({
+    baseUrl:"https://jsonplaceholder.typicode.com",
+    controller:"posts"
+  }).subscribe(a => console.log(a));
+  
   }
 }

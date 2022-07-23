@@ -30,6 +30,20 @@ export class ProductsComponent extends BaseComponent implements OnInit {
       price:15
     }).subscribe();*/
 
+/*
+    this.httpClientService.put({
+      controller:"products"
+    },
+    {
+      id:" 540930d7-3cda-4dee-b716-2dbe05f3085c",
+      name:"Kalem",
+      stock :1200,
+      price:150
+    }).subscribe();*/
+   
 
+    this.httpClientService.delete({
+      controller:"products"
+    },"540930d7-3cda-4dee-b716-2dbe05f3085c").subscribe();
   }
 }

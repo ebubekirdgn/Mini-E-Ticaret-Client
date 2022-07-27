@@ -35,7 +35,7 @@ export class CreateComponent extends BaseComponent implements OnInit {
         messageType:MessageType.Success,
         position : Position.TopRight
       });
-    }, (errorMessage:any) => {
+    }, (errorMessage:any) => {  // else se bu kısım calisacak.
       this.alertify.message(errorMessage,
         {
           dismissOthers: true,

@@ -11,7 +11,9 @@ describe('ListComponent', () => {
       declarations: [ ListComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

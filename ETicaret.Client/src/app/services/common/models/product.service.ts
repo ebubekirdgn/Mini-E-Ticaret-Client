@@ -20,7 +20,7 @@ export class ProductService {
       }, (errorResponse: HttpErrorResponse) => {
         const _error: Array<{ key: string, value: Array<string> }> = errorResponse.error;
         let message = "";
-        _error.forEach((v, index) => {
+        _error.forEach((v, index) => {    
           v.value.forEach((_v, _index) => {
             message += `${_v}<br>`;
           });

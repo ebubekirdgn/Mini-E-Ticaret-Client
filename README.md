@@ -32,3 +32,11 @@ $ npm install --save toastr
 $ npm install ngx-spinner --save
 
 ```
+
+Other Commands
+
+```
+npm unistall -g angular/cli
+npm cache clean
+npm install -g @angular/cli@lastest
+```

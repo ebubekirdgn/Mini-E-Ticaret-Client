@@ -33,10 +33,18 @@ $ npm install ngx-spinner --save
 
 ```
 
+Latest Command 
+
+```
+ng serve
+```
+
 Other Commands
 
 ```
 npm unistall -g angular/cli
 npm cache clean
 npm install -g @angular/cli@lastest
+ng update @angular/cli
+
 ```

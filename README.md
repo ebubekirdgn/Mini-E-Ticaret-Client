@@ -32,7 +32,6 @@ $ npm install --save toastr
 $ npm install ngx-spinner --save
 
 ```
-
 Latest Command 
 
 ```

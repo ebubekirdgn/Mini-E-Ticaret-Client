@@ -74,3 +74,21 @@ export class ProductService {
     successCallBack();
   }*/
 }
+
+
+/*
+
+Bu kodu dene
+ async read(page: number = 0, size: number = 5): Promise<{totalCount: number; products: List_Product[]}> {
+	var promiseData = new Promise<{ totalCount: number; products: List_Product[] }>((resolve, reject) => {
+		resolve();
+		this.httpClientService.get<{ totalCount: number; products: List_Product[] }>({
+      controller: "products",
+      queryString: `page=${page}&size=${size}` })
+	});
+	reject((errorResponse: HttpErrorResponse) => errorCallBack?.arguments(errorResponse.message));
+	  
+    return await promiseData;
+  }
+
+*/

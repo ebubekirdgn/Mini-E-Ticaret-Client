@@ -24,7 +24,7 @@ export class ListComponent extends BaseComponent implements OnInit {
   }
 
 
-  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate', 'photos', 'edit', 'delete'];
+  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate'];
   dataSource = new MatTableDataSource<List_Product>();
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
@@ -37,6 +37,8 @@ export class ListComponent extends BaseComponent implements OnInit {
     }))
     this.dataSource = new MatTableDataSource<List_Product>(allProducts.products);
     this.paginator.length = allProducts.totalCount;
+    console.log(allProducts);
+
   }
 /*
   addProductImages(id: string) {

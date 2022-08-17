@@ -17,6 +17,7 @@ declare var $: any;
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent extends BaseComponent implements OnInit {
+  
   constructor(spinner: NgxSpinnerService,
     private productService: ProductService,
     private alertifyService: AlertifyService) {
@@ -25,7 +26,7 @@ export class ListComponent extends BaseComponent implements OnInit {
 
 
   displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate'];
-  dataSource = new MatTableDataSource<List_Product>();
+  dataSource :MatTableDataSource<List_Product>;
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
   async getProducts() {

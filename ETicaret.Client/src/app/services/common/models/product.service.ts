@@ -38,12 +38,8 @@ export class ProductService {
   firstValueFrom(promiseData)
   .then(d => successCallBack())
   .catch((errorResponse: HttpErrorResponse) => errorCallBack?.arguments(errorResponse.message))
-
-
   return await promiseData;
-
   }
-
 }
 
 

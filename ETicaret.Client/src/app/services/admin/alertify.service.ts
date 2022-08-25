@@ -11,10 +11,10 @@ export class AlertifyService {
   message(message: string, options: Partial<AlertifyOptions>) {
     alertify.set('notifier', 'delay', options.delay);
     alertify.set('notifier', 'position', options.position);
-    const msj = alertify[options.messageType!](message);
+    const msj = alertify[options.messageType](message);
     if (options.dismissOthers)
-        msj.dismissOthers();
-    
+      msj.dismissOthers();
+
   }
 
   dismiss() {

@@ -3,11 +3,14 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ETicaret.Client": {
+    "ETicaretClient": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
         }
       },
       "root": "",
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/eticaret.client",
+            "outputPath": "dist/eticaret-client",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -32,6 +35,7 @@
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/alertifyjs/build/css/alertify.min.css",
+              "node_modules/alertifyjs/build/css/themes/semantic.min.css",
               "node_modules/ngx-toastr/toastr.css",
               "node_modules/ngx-spinner/animations/ball-scale-multiple.css",
               "node_modules/ngx-spinner/animations/ball-atom.css",
@@ -80,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ETicaret.Client:build:production"
+              "browserTarget": "ETicaretClient:build:production"
             },
             "development": {
-              "browserTarget": "ETicaret.Client:build:development"
+              "browserTarget": "ETicaretClient:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +95,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ETicaret.Client:build"
+            "browserTarget": "ETicaretClient:build"
           }
         },
         "test": {
@@ -117,6 +121,6 @@
     }
   },
   "cli": {
-    "analytics": "aa8fa4ac-dec6-46c0-a92f-2d8d8256db1d"
+    "analytics": "7c7c958e-88e3-4049-bba7-20d8d851fd5f"
   }
 }

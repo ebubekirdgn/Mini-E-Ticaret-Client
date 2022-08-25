@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { BaseDialog } from '../base/base-dialog.component';
+import { BaseDialog } from '../base/base-dialog';
 
 @Component({
   selector: 'app-delete-dialog',

@@ -6,13 +6,13 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    ProductsComponent,
+    ProductsComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild([
       { path: "", component: ProductsComponent }
-    ]),
+    ])
   ]
 })
 export class ProductsModule { }
